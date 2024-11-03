@@ -27,6 +27,10 @@ This project is a React-based frontend for a virtual banking assistant chatbot. 
 
 ### `Navigationbar.js`
 This component provides a navigation bar with links to different sections of the app using `react-scroll` for smooth scrolling.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f3553aed-a111-4114-a6a1-30da48614b66" alt="Home Page">
+  <p><em>Detail Page</em></p>
+</p>
 
 ### `Detail.js`
 Contains detailed information about the banking assistant, including a `Link` button to navigate to the chat section.
