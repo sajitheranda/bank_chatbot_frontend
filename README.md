@@ -17,14 +17,4 @@ This project is a React-based frontend for a virtual banking assistant chatbot. 
 
 ## Project Structure
 
-src/
-|-- components/
-|   |-- Navigationbar.js      // Navigation bar component with scroll links
-|   |-- WelcomePage.js        // Welcome page component (optional if implemented)
-|   |-- Detail.js             // Detailed information component
-|   |-- Chat.js               // Main chat page component
-|-- assets/
-|   |-- bank.jpg              // Image used in the navigation bar
-|-- App.js                    // Main application file
-|-- index.js                  // Entry point
-|-- styles/                   // CSS files for styling components
+src/ |-- components/ | |-- Navigationbar.js // Navigation bar component with scroll links | |-- WelcomePage.js // Welcome page component (optional if implemented) | |-- Detail.js // Detailed information component | |-- Chat.js // Main chat page component |-- assets/ | |-- bank.jpg // Image used in the navigation bar |-- App.js // Main application file |-- index.js // Entry point |-- styles/ // CSS files for styling components
