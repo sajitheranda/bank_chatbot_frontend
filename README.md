@@ -73,4 +73,11 @@ Follow these steps to set up the project locally:
 
 3. **Start the development server:**
    ```bash
-   npm itart
+   npm start
+
+## Backend Setup
+The backend is built using [Rasa Open Source](https://rasa.com/), which handles natural language processing and response generation.
+   ```bash
+   git clone https://github.com/yourusername/chatbot-frontend.git
+   cd chatbot-frontend
+
