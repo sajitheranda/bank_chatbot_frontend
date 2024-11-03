@@ -15,6 +15,62 @@ This project is a React-based frontend for a virtual banking assistant chatbot. 
 - **Detail Page**: Provides a detailed description of the app's features and benefits.
 - **Chat Page**: A chat interface for user interaction with the chatbot, which supports live message handling and bot responses.
 
-## Project Structure
 
-src/ |-- components/ | |-- Navigationbar.js // Navigation bar component with scroll links | |-- WelcomePage.js // Welcome page component (optional if implemented) | |-- Detail.js // Detailed information component | |-- Chat.js // Main chat page component |-- assets/ | |-- bank.jpg // Image used in the navigation bar |-- App.js // Main application file |-- index.js // Entry point |-- styles/ // CSS files for styling components
+## Usage
+- **Navigation**: Use the navigation bar to switch between the welcome, detail, and chat pages.
+- **Chat Functionality**:
+  - Enter a message in the input field and submit to start a conversation.
+  - Messages are processed and displayed with real-time responses from the chatbot.
+  - The `chat` component handles user input, sends it to the backend API, and renders bot responses.
+
+## Code Explanation
+
+### `Navigationbar.js`
+This component provides a navigation bar with links to different sections of the app using `react-scroll` for smooth scrolling.
+
+### `Detail.js`
+Contains detailed information about the banking assistant, including a `Link` button to navigate to the chat section.
+
+### `Chat.js`
+Handles user input, renders messages, and calls the backend API for bot responses.
+
+**Key Functions**:
+- `handleSubmit(evt)`: Submits user input.
+- `rasaAPI(name, msg)`: Sends the input to the Rasa backend and handles the bot's response.
+
+**Hooks Used**:
+- `useState` to manage chat state and input.
+- `useEffect` for automatic scrolling of the chat area on new messages.
+
+
+## Screenshots
+### 1. Navigation Bar
+![Navigation Bar](screenshots/navigation-bar.png)
+
+### 2. Detail Page
+![Detail Page](screenshots/detail-page.png)
+
+### 3. Chat Interface
+![Chat Page](screenshots/chat-page.png)
+
+## Technologies Used
+- **React.js**: Frontend library for building the user interface.
+- **CSS**: Styling the components.
+- **react-scroll**: Smooth scrolling for navigation links.
+- **Rasa**: Backend chatbot API for handling user interactions (integration example shown in code).
+
+## Installation
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/chatbot-frontend.git
+   cd chatbot-frontend
+
+2. **Install dependencies: Make sure you have Node.js installed, then run:**
+   ```bash
+   npm install
+
+3. **Start the development server:**
+   ```bash
+   npm itart
