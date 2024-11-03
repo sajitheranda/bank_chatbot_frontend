@@ -1,4 +1,4 @@
-# Virtual Assistant Chatbot Frontend
+#Bank Virtual Assistant Chatbot Frontend
 
 This project is a React-based frontend for a virtual banking assistant chatbot. The chatbot helps users access banking services and information interactively. It includes a welcome page, a detailed page with app information, and a chat page for real-time communication with the chatbot.
 
