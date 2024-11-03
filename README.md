@@ -3,11 +3,11 @@
 This project is a React-based frontend for a virtual banking assistant chatbot. The chatbot helps users access banking services and information interactively. It includes a welcome page, a detailed page with app information, and a chat page for real-time communication with the chatbot.
 
 <div align="center">
-  <iframe width="560" height="315" src="https://youtu.be/K6prUbMt-_Q" 
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen></iframe>
+  <a href="https://youtu.be/K6prUbMt-_Q" target="_blank">
+    <img src="https://img.youtube.com/vi/K6prUbMt-_Q/0.jpg" alt="Watch the video" width="560" height="315">
+  </a>
+  <p><em>Click the image above to watch the video</em></p>
 </div>
-
 ## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
