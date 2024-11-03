@@ -6,7 +6,6 @@ This project is a React-based frontend for a virtual banking assistant chatbot. 
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 
@@ -57,16 +56,6 @@ Handles user input, renders messages, and calls the backend API for bot response
 - `useState` to manage chat state and input.
 - `useEffect` for automatic scrolling of the chat area on new messages.
 
-
-## Screenshots
-### 1. Navigation Bar
-![Navigation Bar](screenshots/navigation-bar.png)
-
-### 2. Detail Page
-![Detail Page](screenshots/detail-page.png)
-
-### 3. Chat Interface
-![Chat Page](screenshots/chat-page.png)
 
 ## Technologies Used
 - **React.js**: Frontend library for building the user interface.
