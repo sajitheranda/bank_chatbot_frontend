@@ -1,0 +1,3 @@
+npm i @ap.cx/react-fullpage
+/// using command prompt
+npm i react-scroll

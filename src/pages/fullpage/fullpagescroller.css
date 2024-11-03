@@ -1,0 +1,18 @@
+.fullpage{
+    height: 100vh;
+}
+
+.screen1{
+    background-color: blue;
+    height: 100%;
+}
+
+.screen2{
+    background-color: red;
+    height: 100%;
+}
+.screen3{
+    background-color: brown;
+    height: 100%;
+}
+

@@ -1,0 +1,12 @@
+.screner1{
+    margin: 0;
+    height: 110vh;
+    width: 100%;
+    color: aliceblue;
+    background-image: url('1.jpg');
+    background-size: cover; /* This will cover the container without distortion */
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
